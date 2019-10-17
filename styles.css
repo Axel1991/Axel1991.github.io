@@ -111,11 +111,11 @@ header .profile-image:hover {
 }
 
 .card1 {
-  margin: 0px 5px 5px 5px;
+  margin: 0px 5px 0px 5px;
 }
 
 .card2{
-  margin: px 5px 0px 0px
+  margin: 0px 5px 0px 0px
 }
 .card1:hover, .card2:hover, .About:hover, .Contact:hover {
   border-color: #b30095;;
