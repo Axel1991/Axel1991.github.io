@@ -117,6 +117,7 @@ header .profile-image:hover {
 .card2{
   margin: 0px 5px 0px 0px
 }
+
 .card1:hover, .card2:hover, .About:hover, .Contact:hover {
   border-color: #b30095;;
 }
@@ -220,6 +221,17 @@ a.social:hover {
 
 .clearfix {
   clear: both;
+}
+
+/* Styles for iPhone X screens */
+@media screen and (max-width: 375px) {
+  .card1 {
+    margin: 0px 5px 0px 5px;
+  }
+  
+  .card2{
+    margin: 5px 5px 0px 5px
+  }
 }
 
 /* Styles for larger screens */
